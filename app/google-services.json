@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "616833367978",
+    "firebase_url": "https://hkmdonorstats.firebaseio.com",
+    "project_id": "hkmdonorstats",
+    "storage_bucket": "hkmdonorstats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616833367978:android:c53b8d1d883c605d",
+        "android_client_info": {
+          "package_name": "org.iskconbangalore.hkmdonorstats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616833367978-gd6dn6pblmvh9f2foncsq5n91h273gki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.iskconbangalore.hkmdonorstats",
+            "certificate_hash": "56f34f90a9cbc66da8bdea8a9d27054b51de8ad5"
+          }
+        },
+        {
+          "client_id": "616833367978-lo9e67kt765efgrmt56j2k90dchvenku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaW3EaGCggh-SAnSocuQDIsRtLIkfWD8w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616833367978-lo9e67kt765efgrmt56j2k90dchvenku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

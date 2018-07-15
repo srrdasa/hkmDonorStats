@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".EntryCount">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Your Details"
+        android:textColor="#686363"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="Event Name"
+            android:inputType="textCapCharacters"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/place"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="Place"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:hint="Location"
+            android:maxLength="25"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/entryline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:hint="Entry Line Category"
+            android:inputType="number"
+            android:maxLength="25"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/personname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:hint="Your Name"
+            android:inputType="number"
+            android:maxLength="25"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnqr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:background="#986"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Go to Scanning screen"
+                android:textColor="#f4f4f4"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Confo"
+        android:layout_width="match_parent"
+        android:layout_height="293dp"
+        android:text="Details..." />
+
+</LinearLayout>
+</ScrollView>
